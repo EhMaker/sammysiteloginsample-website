@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+
+}
+.background-wrapper{
+    background-image: url(sammySite.jpg)  ;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border:3px solid white;
+    background: hsla(202, 95%, 25%, 0.176);
+    color: white ;
+    height: 350px;
+    line-height: 25px;
+    border-radius: 10px;
+     /* margin-right: auto;
+     margin-left: auto;  */
+    
+    
+}
+
+
+
+.wrapper .input-box{
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    background-color:rgba(192, 179, 156, 0.616);
+  border-radius:40px;
+   
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: 2px solid white; 
+    border-radius: 40px;
+    font-size: 17px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    font-weight: 400;
+    font: bolder;
+}
+
+.input-box:hover{
+    background-color:rgba(197, 192, 192, 0.822) ;
+
+}
+.input-box input::placeholder{
+    color: white;
+    font-weight: 100;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 5px 10px 5px;
+}
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+}  
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+
+}
+ .wrapper .btn {
+    padding: 10px;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 45px;
+    background: rgb(131, 221, 154);
+    
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
+    cursor: pointer;
+    font-size: 16px;
+    color:rgb(252, 252, 252);
+    text-shadow: -1px -1px  5px rgba(234, 248, 110, 0.507),
+                 -1px -1px  5px rgba(234, 248, 110, 0.507),
+                 -1px -1px  5px  rgba(234, 248, 110, 0.507),
+                  1px 1px 5px rgba(234, 248, 110, 0.507);
+    font-weight: 600;
+ } 
+
+ .btn{
+    background-color: initial;
+
+ }
+ .btn:active{
+    background-color: rgba(248, 248, 126, 0.856);
+ }
+.wrapper.register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.register-link p a {
+    font-weight:400;
+}
+.register-link p a:hover {
+    text-decoration: underline ;
+    
+}
+p{
+    font-size: small;
+    padding: 5px;
+}
+
+
+h1{
+    
+    align-items: center;
+    margin-inline-start: 37%;
+}
+.glow{
+
+    color: white;
+    text-shadow: -1px -1px  5px black,
+                -1px -1px  5px black,
+                -1px -1px  5px black,
+                1px 1px 5px black
+}
+ a{
+    font-size: small;
+    font:bold;
+    color:red ;
+    text-decoration: underline;
+    text-shadow: -1px -1px  5px black,
+                -1px -1px  5px black,
+                -1px -1px  5px black,
+                1px 1px 5px black
+
+}
+ a:hover{
+    color: yellow;
+ }
+
+  label{
+    text-shadow: -1px -1px  5px black,
+    -1px -1px  5px black,
+    -1px -1px  5px black,
+    1px 1px 5px black;
+  }
+ 
+  .container1{
+    margin:5px;
+    display: flex;
+   text-align: center;
+    margin-bottom:3px;
+    margin-top: 100px;
+    padding: -5px 30px 5px;
+    align-items: center; 
+   /* font-family:Roboto-Bold, 'Lucida Sans', 'Lucida Sans Regular', 
+   'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif; */
+    font-style: italic;
+   font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.445);
+   color: rgb(255, 255, 255);
+   font-weight: 900;
+   border-radius: 10px;
+   text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.678), -2px -1px 3px rgba(0, 136, 170, 0.733);
+ }
+ .container1::first-line{
+    font-family: Edu_Vic_WA;
+    color: white;
+ }
+  
+  @font-face {
+    src: url(EduVICWANTBeginner-Bold.ttf);
+    font-family: Edu_Vic_WA;
+  }
+  @font-face {
+    font-family: Matemasie;
+    src: url(Matemasie-Regular.ttf);
+  }
+@font-face {
+    font-family:Roboto-Bold; 
+    src: url(Roboto-Bold.ttf);
+}
+
+@media (min-width:360px){
+    body{
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+        width: 100%;
+    
+    }
+    •
+.wrapper{
+    display: flex;
+    align-items: center;
+    border: 2px rgb(241, 241, 241);
+    width: 200px;
+    border:3px white;
+    background: hsla(202, 95%, 25%, 0.176);
+    color: white ;
+    border-radius: 5px;
+    height: 150px;
+    line-height: 25px;
+     /* margin-right: auto;
+     margin-left: auto;  */
+    
+    
+}
+}
+@media (max-width:1440px) {
+    body{
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+        width: 100%;
+    
+    }
+    •
+.wrapper{
+    display: flex;
+    align-items: center;
+    border: 2px rgb(241, 241, 241);
+    width: 500px;
+    border:3px white;
+    background: hsla(202, 95%, 25%, 0.176);
+    color: white ;
+    border-radius: 5px;
+    height: 300px;
+    line-height: 25px;
+    font-size: 50px;
+   
+}
+}
+/* 
+@media (max-width:375px) {
+    .wrapper{
+        display: flex;
+        width:350px;
+        position: relative;
+        
+    }
+    
+    .input-box{
+        display: flex;
+        position: relative;
+         right: 7px;
+         width: 100%;
+         font-size: 15px;
+    }
+    .remember-forgot a{
+        margin-right: 40px;
+    }
+    .remember-forgot label{
+        font-size: 12px;
+    }
+    .glow{
+        position: relative;
+        right: 14px;
+    }
+    .btn{
+        position: relative;
+        right:14px ;
+    }
+}
+@media (max-width:320px) {
+    .wrapper{
+        display: flex;
+        width:320px;
+        position: relative;
+    }
+    
+    .input-box{
+        display: flex;
+        position: relative;
+         right: 25px;
+    }
+    .remember-forgot a{
+        margin-right: 40px;
+    }
+    .remember-forgot label{
+        font-size: 12px;
+    }
+    .glow{
+        position: relative;
+        right: 14px;
+    }
+    .btn{
+        position: relative;
+        right:14px ;
+    }
+} */
